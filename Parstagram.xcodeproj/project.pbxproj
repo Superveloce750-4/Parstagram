@@ -17,6 +17,8 @@
 		BA8F692A2548D4E500E583C6 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F69292548D4E500E583C6 /* ParstagramUITests.swift */; };
 		BA8F69602548E32800E583C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F695F2548E32800E583C6 /* LoginViewController.swift */; };
 		BA8F69652548E34F00E583C6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F69642548E34F00E583C6 /* FeedViewController.swift */; };
+		BACD923B25493B1C00C771E3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACD923A25493B1C00C771E3 /* CameraViewController.swift */; };
+		BACD924E254A4DB800C771E3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACD924D254A4DB800C771E3 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		BA8F692B2548D4E500E583C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA8F695F2548E32800E583C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BA8F69642548E34F00E583C6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BACD923A25493B1C00C771E3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BACD924D254A4DB800C771E3 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				BA8F69152548D4E500E583C6 /* Info.plist */,
 				BA8F695F2548E32800E583C6 /* LoginViewController.swift */,
 				BA8F69642548E34F00E583C6 /* FeedViewController.swift */,
+				BACD923A25493B1C00C771E3 /* CameraViewController.swift */,
+				BACD924D254A4DB800C771E3 /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -330,9 +336,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8F69602548E32800E583C6 /* LoginViewController.swift in Sources */,
+				BACD923B25493B1C00C771E3 /* CameraViewController.swift in Sources */,
 				BA8F69082548D4E400E583C6 /* AppDelegate.swift in Sources */,
 				BA8F69652548E34F00E583C6 /* FeedViewController.swift in Sources */,
 				BA8F690A2548D4E400E583C6 /* SceneDelegate.swift in Sources */,
+				BACD924E254A4DB800C771E3 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
